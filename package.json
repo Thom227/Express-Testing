@@ -1,6 +1,28 @@
 {
   "dependencies": {
     "chai": "^4.3.6",
+    "express": "^4.18.2",
     "mocha": "^10.0.0"
-  }
+  },
+  "name": "testing",
+  "version": "1.0.0",
+  "main": "maths.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha tests/",
+    "start": "node catto.js"
+    
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thom227/Express-Testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thom227/Express-Testing/issues"
+  },
+  "homepage": "https://github.com/Thom227/Express-Testing#readme",
+  "description": ""
 }
