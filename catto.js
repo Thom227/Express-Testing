@@ -3,16 +3,15 @@ const catto = (num) => {
     for(let i = 1; i < 35; i++) {
         if (i === num) {continue}
 
-        let numEnd = (i%10);
-        if(numEnd == 1) {
+        if(i % 10 === 1 && i !== 11) {
             console.log(i + "st");
-        } else if(numEnd == 2){
+        } else if(i % 10 === 2 && i !== 12){
             console.log(i + "nd");            
-        } else if(numEnd == 3) {
+        } else if(i % 10 == 3 && i !==13) {
             console.log(i + "rd");     
         } else console.log(i + "th");
     }
 };
-console.log(catto());
+console.log(catto(30));
 
 module.exports = catto;
