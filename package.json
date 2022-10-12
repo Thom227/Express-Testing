@@ -1,18 +1,16 @@
 {
   "dependencies": {
     "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
     "express": "^4.18.2",
     "mocha": "^10.0.0"
   },
   "name": "testing",
   "version": "1.0.0",
   "main": "maths.js",
-  "devDependencies": {},
   "scripts": {
     "test": "mocha tests/",
     "start": "node catto.js"
-    
-  
   },
   "repository": {
     "type": "git",
